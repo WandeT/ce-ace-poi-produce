@@ -1,4 +1,4 @@
-oc project cp4i
+oc project ace
 set +e
 oc delete BuildConfig din-ace-is
 set -e
