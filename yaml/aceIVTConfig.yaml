@@ -6,7 +6,7 @@ spec:
   source:
     git:
       uri: https://github.com/Mattar555/ce-afp-ace-poi-produce
-      ref: master
+      ref: main
   output:
     to:
       kind: ImageStreamTag
