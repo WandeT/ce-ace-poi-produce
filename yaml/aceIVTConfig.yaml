@@ -10,7 +10,7 @@ spec:
   output:
     to:
       kind: ImageStreamTag
-      name: 'din-ace-is:v1'
+      name: 'afp-ace-produce-is:v1'
   strategy:
     dockerStrategy:
       pullSecret:
