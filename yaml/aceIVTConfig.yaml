@@ -5,7 +5,7 @@ metadata:
 spec:
   source:
     git:
-      uri: https://github.com/Mattar555/dha-yalta-ace-din-flow
+      uri: https://github.com/Mattar555/ce-afp-ace-poi-produce
       ref: master
   output:
     to:
