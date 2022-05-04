@@ -36,4 +36,4 @@ spec:
     enabled: false
     namespace: ace
   logFormat: basic
-  configurations: ["kafka-policy", "es-jks", "kafka-parms"]
+  configurations: ["kakfa-policy", "es-jks", "kafka-parms"]
