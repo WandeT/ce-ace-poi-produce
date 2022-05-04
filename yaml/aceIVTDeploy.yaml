@@ -34,6 +34,6 @@ spec:
   adminServerSecure: false
   tracing:
     enabled: false
-    namespace: cp4i
+    namespace: ace
   logFormat: basic
-  configurations: ["mqpolicy", "odbcini", "dbparms"]
+  configurations: ["kafka-policy", "es-jks", "kafka-parms"]

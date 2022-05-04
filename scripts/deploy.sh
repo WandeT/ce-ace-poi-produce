@@ -7,8 +7,8 @@ oc create -f yaml/aceIVTConfig.yaml
 set -e
 set tw=0
 
-bash -x createConfig.sh policyproject mqpolicy config/Policy.zip
-bash -x createConfig.sh odbc odbcini config/odbc.ini
-bash -x createConfig.sh setdbparms dbparms config/setdbparms.txt
+bash -x createConfig.sh policyproject kakfa-policy config/eventstreamspolicyproject.zip
+bash -x createConfig.sh truststore es-jks config/es-cert-ace.jks
+bash -x createConfig.sh setdbparms kafka-parms config/setdbparms.txt
 
 oc start-build din-ace-is
