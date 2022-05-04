@@ -1,7 +1,7 @@
 apiVersion: build.openshift.io/v1
 kind: BuildConfig
 metadata:
-  name: din-ace-is
+  name: afp-ace-produce
 spec:
   source:
     git:
@@ -10,7 +10,7 @@ spec:
   output:
     to:
       kind: ImageStreamTag
-      name: 'afp-ace-produce-is:v1'
+      name: 'afp-ace-produce-is:v2'
   strategy:
     dockerStrategy:
       pullSecret:
