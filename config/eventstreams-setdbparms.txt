@@ -1,0 +1,2 @@
+kafka::myKafkaSecId scram1 BbrFj27SssQf
+truststore::truststorePass anyname password
