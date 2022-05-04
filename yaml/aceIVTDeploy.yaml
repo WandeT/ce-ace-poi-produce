@@ -9,7 +9,7 @@ spec:
   pod:
     containers:
       runtime:
-        image: image-registry.openshift-image-registry.svc:5000/ace/afp-ace-produce-is:v2
+        image: image-registry.openshift-image-registry.svc:5000/ace/afp-ace-produce-is:v3
         imagePullPolicy: Always
         resources:
           limits:

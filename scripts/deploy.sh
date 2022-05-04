@@ -1,6 +1,6 @@
 oc project ace
 set +e
-oc delete BuildConfig din-ace-is
+oc delete BuildConfig afp-ace-produce
 set -e
 oc create -f yaml/aceIVTConfig.yaml
 
@@ -11,4 +11,4 @@ bash -x createConfig.sh policyproject kakfa-policy config/eventstreamspolicyproj
 bash -x createConfig.sh truststore es-jks config/es-cert-ace.jks
 bash -x createConfig.sh setdbparms kafka-parms config/eventstreams-setdbparms.txt
 
-oc start-build din-ace-is
+oc start-build afp-ace-produce 
