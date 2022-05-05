@@ -9,8 +9,6 @@ spec:
   pod:
     containers:
       runtime:
-        image: image-registry.openshift-image-registry.svc:5000/ace/afp-ace-produce-is:v4
-        imagePullPolicy: Always
         resources:
           limits:
             cpu: 2
@@ -28,6 +26,8 @@ spec:
   useCommonServices: true
   enableMetrics: true
   replicas: 1
+  barURL: >-
+    https://mattar555.github.io/ce-afp-ace-poi-produce/ace/binary/eventstreams.bar
   service:
     endpointType: http
   designerFlowsOperationMode: disabled
@@ -36,4 +36,4 @@ spec:
     enabled: false
     namespace: ace
   logFormat: basic
-  configurations: ["kakfa-policy", "es-jks", "kafka-parms"]
+  configurations: ["kakfa-policy", "es-jks", "kafka-parms", "github-bar-auth"]
