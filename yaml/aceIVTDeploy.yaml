@@ -36,4 +36,4 @@ spec:
     enabled: false
     namespace: ace
   logFormat: basic
-  configurations: ["kakfa-policy", "es-jks", "kafka-parms", "github-bar-auth"]
+  configurations: ["kakfa-policy", "kafka.jks", "kafka-parms", "github-bar-auth"]
